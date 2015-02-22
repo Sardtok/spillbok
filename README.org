@@ -8,7 +8,7 @@ programmering ved at leseren lager en liten samling spill.
 
 * Lisens
 
-/Lag dine egne dataspill/  
+/Lag dine egne dataspill/\\
 Copyright (C) 2015 Sigmund Hansen
 
 Denne boka og koden som inngår i den, er fri; du kan redistribuere den
