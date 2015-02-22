@@ -1,0 +1,47 @@
+This is a Norwegian book about programming games in Processing
+licensed under the GNU GPL version 3.
+
+* Lag dine egne dataspill
+
+En bok om å lage dataspill med Processing. Boka gir en innføring i
+programmering ved at leseren lager en liten samling spill.
+
+* Lisens
+
+/Lag dine egne dataspill/
+Copyright (C) 2015 Sigmund Hansen
+
+Denne boka og koden som inngår i den, er fri; du kan redistribuere den
+og/eller endre den etter vilkårne i GNU General Public License som
+publisert av Free Software Foundation, enten versjon 3 av lisensen,
+eller (som du ønsker) enhver senere versjon.
+
+Denne boka er distribuert i håp om at den skal være nyttig, men UTEN
+NOEN GARANTI; selv uten noen antydet garanti om SALGBARHET eller
+EGNETHET FOR NOE BESTEMT FORMÅL. Se GNU General Public License for mer
+detaljer.
+
+Du skal ha mottatt en kopi av GNU General Public License med denne
+boka. Hvis ikke, se <http://www.gnu.org/licenses/>.
+
+** Hva betyr dette for deg
+
+Det betyr at du kan bruke boka slik du selv ønsker, men at hvis du
+endrer boka og gjør endringene tilgjengelig for andre, må din versjon
+av boka også være utgitt under GNU GPL v3 eller høyere. Du har også
+lov til å selge boka, digitalt eller trykt, men må ikke fjerne
+informasjon om lisensen. Du har også lov til å trykke boka og dele den
+med andre som du selv ønsker.
+
+GPL er ikke tilgjengelig på norsk, men du finner den på engelsk i
+[[LICENSE.txt]]. Hvis du skulle være usikker angående noen av vilkårne,
+kan du ta kontakt med meg. Det viktigste, er at du må oppgi at du har
+endret boka om du utgir en endret utgave.
+
+* Bidrag
+
+Hvis du finner feil, eller forbedrer boka, håper jeg du oppretter en
+"issue" eller "pull request" her på GitHub, så disse forbedringene kan
+gjøres tilgjengelig for alle på den opprinnelige plasseringen. Alle
+som bidrar til forbedringer, vil få navnet sitt eller om ønsket et
+kallenavn i boka.
