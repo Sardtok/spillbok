@@ -1,0 +1,16 @@
+#+BIND: org-latex-pdf-process ("xelatex -shell-escape -interaction nonstopmode %f" "xelatex -shell-escape -interaction nonstopmode %f")
+#+BIND: org-latex-tables-booktabs t
+#+BIND: org-latex-minted-options (("frame" "lines") ("linenos" "true") ("breaklines" "true"))
+
+#+LaTeX_CLASS: book
+#+LaTeX_CLASS_OPTIONS: [norsk]
+
+#+LaTeX_HEADER: \usepackage{sourcecodepro}
+#+LATEX: \usemintedstyle{processing}
+
+
+* Innledning
+
+* Spill
+
+#+INCLUDE: "kongen.org"

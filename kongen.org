@@ -1,0 +1,47 @@
+* Kongen befaler
+
+I dette kapitlet skal vi lage et spill som heter /Kongen befaler/,
+basert på spillet /Simon/ . Spillet går ut på at det spilles en melodi,
+og spilleren må prøve å huske melodien og spille denne. Vi begynner
+med dette spillet fordi det dekker mye av det grunnleggende, uten at
+det er så vanskelig å komme igang med.
+
+I spillet har vi et antall knapper som hver spiller sin tone. Knappen
+skal lyse når tonen spilles, slik at man kan spille det både med og
+uten lyd. I den varianten vi lager her, bruker vi fire knapper, og
+altså fire toner, men man kan ta med flere knapper og toner for å
+gjøre spillet vanskeligere.
+
+** Knapper og musetrykk
+
+Vi skal ha med fire knapper i spillet for å spille de forskjellige
+tonene. Derfor må vi ha med kode for å tegne opp knappene og for å ta
+imot musetrykk. Vi begynner med en enkel implementasjon der knappene
+dekker hele vinduet:
+
+#+NAME: lst:konge-1
+#+CAPTION: Første utkast til knapper.
+#+BEGIN_SRC processing
+/**
+ * Her setter vi opp vinduet
+ * og andre ting som må forberedes før spillet kjører.
+ */
+void setup() {
+  size(600, 600);
+}
+
+/**
+ * Her tegner vi opp knappene.
+ */
+void draw() {
+  background(0);
+  fill(0, 0, 255);
+  rect(0, 0, width / 2, height / 2);
+  fill(0, 255, 0);
+  rect(width / 2, 0, width, height / 2);
+  fill(255, 255, 0);
+  rect(0, height / 2, width / 2, height);
+  fill(255, 0, 0);
+  rect(width / 2, height / 2, width, height);
+}
+#+END_SRC
