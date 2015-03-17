@@ -1,3 +1,21 @@
+#+BEGIN_COMMENT
+/Lag dine egne dataspill/\\
+Copyright (C) 2015 Sigmund Hansen
+
+Denne boka og koden som inngår i den, er fri; du kan redistribuere den
+og/eller endre den etter vilkårne i GNU General Public License som
+publisert av Free Software Foundation, enten versjon 3 av lisensen,
+eller (som du ønsker) enhver senere versjon.
+
+Denne boka er distribuert i håp om at den skal være nyttig, men UTEN
+NOEN GARANTI; selv uten noen antydet garanti om SALGBARHET eller
+EGNETHET FOR NOE BESTEMT FORMÅL. Se GNU General Public License for mer
+detaljer.
+
+Du skal ha mottatt en kopi av GNU General Public License med denne
+boka. Hvis ikke, se <http://www.gnu.org/licenses/>.
+#+END_COMMENT
+
 * Kongen befaler
 
 I dette kapitlet skal vi lage et spill som heter /Kongen befaler/,
