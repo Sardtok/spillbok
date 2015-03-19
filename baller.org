@@ -1,0 +1,63 @@
+#+BEGIN_COMMENT
+/Lag dine egne dataspill/\\
+Copyright (C) 2015 Sigmund Hansen
+
+Denne boka og koden som inngår i den, er fri; du kan redistribuere den
+og/eller endre den etter vilkårne i GNU General Public License som
+publisert av Free Software Foundation, enten versjon 3 av lisensen,
+eller (som du ønsker) enhver senere versjon.
+
+Denne boka er distribuert i håp om at den skal være nyttig, men UTEN
+NOEN GARANTI; selv uten noen antydet garanti om SALGBARHET eller
+EGNETHET FOR NOE BESTEMT FORMÅL. Se GNU General Public License for mer
+detaljer.
+
+Du skal ha mottatt en kopi av GNU General Public License med denne
+boka. Hvis ikke, se <http://www.gnu.org/licenses/>.
+#+END_COMMENT
+
+* Baller i rommet
+
+Nå som du har lært det grunnleggende i Processing, skal vi se på
+hvordan vi får til bevegelse og opptegning av andre ting enn
+geometriske former. Vi begynner med å lage en ball som spretter på
+kantene av vinduet, så legger vi til flere baller som kan sprette i
+hverandre i tillegg til veggene. Til slutt legger vi til en spiller
+som skal skyte ned ballene. Hvis spilleren blir truffet, skal
+spilleren dø. Spilleren skal styre et romskip, så vi skal ikke bruke
+sirkler eller firkanter for å tegne opp spilleren, men et bilde av et
+romskip.
+
+** En ball som beveger seg
+
+La oss først begynne med en ball som beveger seg. For at ballen skal
+bevege seg, må vi endre plasseringen dens for hvert bilde vi tegner
+opp. Hvor mye vi endrer plasseringen bestemmer hastigheten. Vi må
+holde rede på hvor ballen er til enhver tid, og til det bruker vi
+variabler av typen ~float~ eller flyttall, som er en form for
+desimaltall. Det hadde gått an å bruke heltall også, men det er mange
+fordeler med flyttal.
+
+#+NAME: lst:baller-1
+#+CAPTION: En ball som beveger seg
+#+BEGIN_SRC processing
+float x, y; // Koordinater for plassering
+float xFart, yFart; // Fart i hver retning
+
+void setup() {
+  size(800, 600); // Vindu som er 800 piksler bredt og 600 høyt
+  fill(64, 128, 255); // Lyseblå fyllfarge
+  stroke(32, 96, 255); // Litt mørkere omriss
+  x = width / 2; // Ballen begynner midt i vinduet
+  y = height / 2; // Ballen begynner midt i vinduet
+  xFart = 2.3; // Flytt litt mer enn to piksler til høyre hvert bilde
+  yFart = 0.6; // Flytt omtrent en halv piksel ned hvert bilde
+}
+
+void draw() {
+  background(255); // Hvit bakgrunn
+  x += xFart; // Flytt ballen sidelengs
+  y += yFart; // Flytt ballen opp eller ned
+  ellipse(x, y, 50, 50); // Tegn ballen med en fast størrelse
+}
+#+END_SRC
