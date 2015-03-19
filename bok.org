@@ -1,5 +1,24 @@
+#+BEGIN_COMMENT
+/Lag dine egne dataspill/\\
+Copyright (C) 2015 Sigmund Hansen
+
+Denne boka og koden som inngår i den, er fri; du kan redistribuere den
+og/eller endre den etter vilkårne i GNU General Public License som
+publisert av Free Software Foundation, enten versjon 3 av lisensen,
+eller (som du ønsker) enhver senere versjon.
+
+Denne boka er distribuert i håp om at den skal være nyttig, men UTEN
+NOEN GARANTI; selv uten noen antydet garanti om SALGBARHET eller
+EGNETHET FOR NOE BESTEMT FORMÅL. Se GNU General Public License for mer
+detaljer.
+
+Du skal ha mottatt en kopi av GNU General Public License med denne
+boka. Hvis ikke, se <http://www.gnu.org/licenses/>.
+#+END_COMMENT
+
 #+BIND: org-latex-pdf-process ("xelatex -shell-escape -interaction nonstopmode %f" "xelatex -shell-escape -interaction nonstopmode %f")
 #+BIND: org-latex-tables-booktabs t
+#+BIND: org-latex-listings minted
 #+BIND: org-latex-minted-options (("frame" "lines") ("linenos" "true") ("breaklines" "true"))
 
 #+LaTeX_CLASS: book
@@ -8,9 +27,15 @@
 #+LaTeX_HEADER: \usepackage{sourcecodepro}
 #+LATEX: \usemintedstyle{processing}
 
-
 * Innledning
+
+#+INCLUDE: "typer.org" :minlevel 2
+#+INCLUDE: "farger.org" :minlevel 2
 
 * Spill
 
-#+INCLUDE: "kongen.org"
+#+INCLUDE: "kongen.org" :minlevel 2
+#+INCLUDE: "baller.org" :minlevel 2
+# #+INCLUDE: "kungfuguy.org" :minlevel 2
+# #+INCLUDE: "flamerunner.org" :minlevel 2
+# #+INCLUDE: "bounceboy.org" :minlevel 2
