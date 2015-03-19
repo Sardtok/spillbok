@@ -1,0 +1,39 @@
+#+BEGIN_COMMENT
+/Lag dine egne dataspill/\\
+Copyright (C) 2015 Sigmund Hansen
+
+Denne boka og koden som inngår i den, er fri; du kan redistribuere den
+og/eller endre den etter vilkårne i GNU General Public License som
+publisert av Free Software Foundation, enten versjon 3 av lisensen,
+eller (som du ønsker) enhver senere versjon.
+
+Denne boka er distribuert i håp om at den skal være nyttig, men UTEN
+NOEN GARANTI; selv uten noen antydet garanti om SALGBARHET eller
+EGNETHET FOR NOE BESTEMT FORMÅL. Se GNU General Public License for mer
+detaljer.
+
+Du skal ha mottatt en kopi av GNU General Public License med denne
+boka. Hvis ikke, se <http://www.gnu.org/licenses/>.
+#+END_COMMENT
+
+* Typer
+
+#+NAME: tbl:typer-1
+#+CAPTION: Typer i Processing
+
+  +-------+----------------------------------------------+
+  |Type   |Beskrivelse                                   |
+  |       |                                              |
+  +-------+----------------------------------------------+
+  | ~int~ |Heltall. Det vil si tall uten desimaler,      |
+  |       |f.eks. 1, 2, 3 og -5.                         |
+  +-------+----------------------------------------------+
+  |~float~|Flyttall. Dette er en type desimaltall som    |
+  |       |ofte brukes i datamaskiner. Se [Flyttall] for |
+  |       |mer informasjon.                              |
+  +-------+----------------------------------------------+
+  |~color~|Farger. Et heltall som brukes til å           |
+  |       |representere farger i opptegning. Se [Farger] |
+  |       |for mer informasjon.                          |
+  +-------+----------------------------------------------+
+

@@ -1,0 +1,30 @@
+#+BEGIN_COMMENT
+/Lag dine egne dataspill/\\
+Copyright (C) 2015 Sigmund Hansen
+
+Denne boka og koden som inngår i den, er fri; du kan redistribuere den
+og/eller endre den etter vilkårne i GNU General Public License som
+publisert av Free Software Foundation, enten versjon 3 av lisensen,
+eller (som du ønsker) enhver senere versjon.
+
+Denne boka er distribuert i håp om at den skal være nyttig, men UTEN
+NOEN GARANTI; selv uten noen antydet garanti om SALGBARHET eller
+EGNETHET FOR NOE BESTEMT FORMÅL. Se GNU General Public License for mer
+detaljer.
+
+Du skal ha mottatt en kopi av GNU General Public License med denne
+boka. Hvis ikke, se <http://www.gnu.org/licenses/>.
+#+END_COMMENT
+
+* Farger
+
+Når vi tegner opp grafikk, er farger en helt essensiell del av
+arbeidet. Da må vi kunne litt om hvordan farger fungerer på en skjerm
+og i en datamaskin. De fleste har lært at vi har tre primærfarger:
+rød, gul og blå, som kan blandes sammen for å få enhver annen
+farge. Dette er basert på hvordan maling fungerer, og kalles gjerne et
+subtraktivt fargesystem. I datamaskiner jobber vi derimot som regel
+med et additivt fargesystem der rød, grønn og blå er
+primærfargene. Farger er egentlig bare lys, og i et subtraktivt
+fargesystem trekker man fra lys etter hvert som man blander farger,
+mens i et additivt fargesystem legges det til mer lys.
