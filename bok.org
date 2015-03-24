@@ -24,8 +24,24 @@ boka. Hvis ikke, se <http://www.gnu.org/licenses/>.
 #+LaTeX_CLASS: book
 #+LaTeX_CLASS_OPTIONS: [norsk]
 
+#+LaTeX_HEADER: \usepackage{minted}
 #+LaTeX_HEADER: \usepackage{sourcecodepro}
+#+LaTeX_HEADER: \usepackage{tabu}
+#+LaTeX_HEADER: \usepackage{booktabs}
 #+LATEX: \usemintedstyle{processing}
+#+LATEX: \newcommand{\pde}[1]{\mintinline{processing}{#1}}
+
+#+BEGIN_SRC emacs-lisp :exports results
+(org-add-link-type
+  "ltx" nil
+  (lambda (path desc format)
+    (cond
+      ((eq format 'html)
+        (format "<span class=\"%s\">%s</span>" path desc))
+      ((eq format 'latex)
+        (format "\\%s{%s}" path desc)))))
+""
+#+END_SRC
 
 * Innledning
 
