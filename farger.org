@@ -28,3 +28,18 @@ med et additivt fargesystem der rød, grønn og blå er
 primærfargene. Farger er egentlig bare lys, og i et subtraktivt
 fargesystem trekker man fra lys etter hvert som man blander farger,
 mens i et additivt fargesystem legges det til mer lys.
+
+I datamaskiner er det typisk at vi bruker verdier mellom $0$ og $255$ for
+å angi hvor mye lys av hver farge som skal brukes. Noen ganger brukes
+også desimaltall mellom $0.0$ og $1.0$. Når vi blander lys av
+forskjellige farger, kan vi lage nye farger. Hvis alle tre fargene lys
+settes til $0$, får vi svart. Hvis alle tre fargene settes til $255$,
+får vi hvitt.
+
+** Fargevelger
+
+Vi trenger ikke å gjette oss til verdiene vi skal bruke. I Processing
+finnes det en fargevelger som kan hjelpe oss. Hvis du velger =Tools=
+-> =Color Selector=, får du opp et vindu der du kan velge farger og
+finne tallene du skal bruke. Du kan også trykke på =Copy= for å
+kopiere en kode som kan brukes istedenfor tre atskilte tall.
