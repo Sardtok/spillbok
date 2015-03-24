@@ -26,10 +26,15 @@ boka. Hvis ikke, se <http://www.gnu.org/licenses/>.
 
 #+LaTeX_HEADER: \usepackage{minted}
 #+LaTeX_HEADER: \usepackage{sourcecodepro}
+#+LaTeX_HEADER: \usepackage{longtable}
 #+LaTeX_HEADER: \usepackage{tabu}
 #+LaTeX_HEADER: \usepackage{booktabs}
-#+LATEX: \usemintedstyle{processing}
-#+LATEX: \newcommand{\pde}[1]{\mintinline{processing}{#1}}
+#+LaTeX_HEADER: \usepackage{upquote}
+
+#+BEGIN_LATEX
+\usemintedstyle{processing}
+\newmintinline[pde]{processing}{}
+#+END_LATEX
 
 #+BEGIN_SRC emacs-lisp :exports results
 (org-add-link-type
