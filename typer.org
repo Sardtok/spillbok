@@ -20,20 +20,14 @@ boka. Hvis ikke, se <http://www.gnu.org/licenses/>.
 
 #+NAME: tbl:typer-1
 #+CAPTION: Typer i Processing
-
-  +-------+----------------------------------------------+
-  |Type   |Beskrivelse                                   |
-  |       |                                              |
-  +-------+----------------------------------------------+
-  | ~int~ |Heltall. Det vil si tall uten desimaler,      |
-  |       |f.eks. 1, 2, 3 og -5.                         |
-  +-------+----------------------------------------------+
-  |~float~|Flyttall. Dette er en type desimaltall som    |
-  |       |ofte brukes i datamaskiner. Se [Flyttall] for |
-  |       |mer informasjon.                              |
-  +-------+----------------------------------------------+
-  |~color~|Farger. Et heltall som brukes til å           |
-  |       |representere farger i opptegning. Se [Farger] |
-  |       |for mer informasjon.                          |
-  +-------+----------------------------------------------+
-
+#+ATTR_LATEX: :align lr :width 0.9\linewidth
+|---------+-------------------------------------------------------------------------------------------------------------------------------|
+| Type    | Beskrivelse                                                                                                                   |
+|---------+-------------------------------------------------------------------------------------------------------------------------------|
+| [[ltx:pde][int]]     | Heltall. Det vil si tall uten desimaler, f.eks. $1$, $2$, $3$ og $-5$.                                                        |
+| [[ltx:pde][float]]   | Flyttall. Dette er en type desimaltall som ofte brukes i datamaskiner. Se [[Flyttall]] for mer informasjon.                       |
+| [[ltx:pde][color]]   | Farger. Et heltall som brukes til å representere farger. Se [[Farger]] for mer informasjon.                                       |
+| [[ltx:pde][boolean]] | Sannhetsverdier. Kan enten være [[ltx:pde][true]], sann, eller [[ltx:pde][false]], usann.                                                               |
+| [[ltx:pde][char]]    | Tegn. Enkeltbokstaver og -tegn som [[ltx:pde]['a']], [[ltx:pde]['b']], [[ltx:pde]['c']] eller [[ltx:pde]['!']].                                                                   |
+| [[ltx:pde][String]]  | Strenger. I programmering kalles tekst gjerne strenger. Du kan tenke på det som en perlesnor med bokstaver istedenfor perler. |
+|---------+-------------------------------------------------------------------------------------------------------------------------------|
