@@ -1,0 +1,19 @@
+# TeX compilation files
+*.aux
+*.bcf
+*.blg
+*.dvi
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+
+# Pygments TeX and style output
+*.pygtex
+*.pygstyle
+
+# Emacs temporary and backup files
+*~
+\#*
+\.\#*
