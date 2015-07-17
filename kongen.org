@@ -34,8 +34,8 @@ gjøre spillet vanskeligere.
 
 Vi skal ha med fire knapper i spillet for å spille de forskjellige
 tonene. Derfor må vi ha med kode for å tegne opp knappene og for å ta
-imot musetrykk. Vi begynner med en enkel implementasjon der knappene
-dekker hele vinduet.
+imot musetrykk. Vi begynner med en enkel løsning der knappene dekker
+hele vinduet:
 
 #+NAME: lst:konge-1-1
 #+CAPTION: Oppsett av vinduet
@@ -45,6 +45,21 @@ Først må vi lage vinduet vi skal bruke til spillet. Koden i [[lst:kode-1-1]]
 lager et slikt vindu som er 800 piksler bredt og 600 piksler
 høyt. Piksler er det bilder på en skjerm består av, mange små
 firkanter som kan ha forskjellige farger.
+
+Denne koden består av flere deler, og vi skal nå se på hva hver av
+disse gjør. Aller først i programmet ser vi en kommentar. Dette er
+tekst som ikke tas med som kode når programmet kjøres. Kommentarene
+her starter med [[ltx:pde][/*]] og slutter med [[ltx:pde][*/]], alt som kommer imellom disse
+blir ignorert av Processing når programmet kjøres.
+
+Rett etter kommentaren ser vi linjen [[ltx:pde][void setup() {]] som er starten på
+en funksjon, setup, som skal være med i stort sett alle
+Processing-programmer. Koden som kommer mellom krøllparentesene,
+utgjør koden i funksjoneen og kalles kroppen til funksjonen. Den
+eneste linjen i kroppen, [[ltx:pde][size(600, 600);]], angir at programmet skal
+kjøre i et vindu som er 600 piksler bredt og 600 piksler høyt. Linjen
+etter består av en krøllparentes som markerer slutten på funksjonen.
+
 
 #+NAME: lst:konge-1-2
 #+CAPTION: Opptegning av knapper
