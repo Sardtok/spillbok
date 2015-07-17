@@ -42,4 +42,5 @@ Vi trenger ikke å gjette oss til verdiene vi skal bruke. I Processing
 finnes det en fargevelger som kan hjelpe oss. Hvis du velger =Tools=
 -> =Color Selector=, får du opp et vindu der du kan velge farger og
 finne tallene du skal bruke. Du kan også trykke på =Copy= for å
-kopiere en kode som kan brukes istedenfor tre atskilte tall.
+kopiere en kode som kan brukes istedenfor tre atskilte tall. Du kan
+lime inn koden ved å trykke på [[ltx:keys][\ctrl + V]]

@@ -29,7 +29,7 @@ boka. Hvis ikke, se <http://www.gnu.org/licenses/>.
 | ~int~     | Heltall. Det vil si tall uten desimaler, f.eks. $1$, $2$, $3$ og $-5$.                                                        |
 | ~float~   | Flyttall. Dette er en type desimaltall som ofte brukes i datamaskiner. Se [[Flyttall]] for mer informasjon.                       |
 | ~color~   | Farger. Et heltall som brukes til å representere farger. Se [[Farger]] for mer informasjon.                                       |
-| ~boolean~ | Sannhetsverdier. Kan enten være ~true~, sann, eller ~false~, usann.                                                  |
-| ~char~    | Tegn. Enkeltbokstaver og -tegn som ~​'a'​~, ~​'b'​~, ~​'c'​~ eller ~​'!'​~.                                                          |
+| ~boolean~ | Sannhetsverdier. Kan enten være ~true~, sann, eller ~false~, usann.                                                           |
+| ~char~    | Tegn. Enkeltbokstaver og -tegn som =​'a'​=, =​'1'​= og =​'!'​=.                                                                     |
 | ~String~  | Strenger. I programmering kalles tekst gjerne strenger. Du kan tenke på det som en perlesnor med bokstaver istedenfor perler. |
 |-----------+-------------------------------------------------------------------------------------------------------------------------------|

@@ -30,6 +30,7 @@ boka. Hvis ikke, se <http://www.gnu.org/licenses/>.
 #+LaTeX_HEADER: \usepackage{tabu}
 #+LaTeX_HEADER: \usepackage{booktabs}
 #+LaTeX_HEADER: \usepackage{upquote}
+#+LaTeX_HEADER: \usepackage{menukeys}
 
 #+BEGIN_LATEX
 \usemintedstyle{processing}
